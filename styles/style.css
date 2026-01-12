@@ -124,7 +124,7 @@ main {
 }
 
 .letter-spacing-extended {
-  letter-spacing: 30px;
+  letter-spacing: 0.3em;
 }
 
 /* Убирает ненужный отступ в конце слова, создаваемый свойством letter-spacing всего элемента */
@@ -184,13 +184,10 @@ main {
 .lots__card-list {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
-    column-gap: 25px;
+    gap: 25px;
     list-style: none;
 }
 
-.lost__card-list-item {
-    height: 100%;
-}
 
 .card-link {
     display: block;
@@ -283,7 +280,7 @@ main {
 }
 
 .about__title {
-  padding: 95px 0 104px;
+  padding: 92px 0 104px;
   font-weight: bold;
   font-size: 40px;
   line-height: 1;
